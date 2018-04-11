@@ -9,8 +9,7 @@ void main(){
 	int d;
 	a = 1;
 	b = 200;
-	c = 3;
-	d = a + b + c;
+	d = a + b + b;
 
 	new_branch = a + d;
 	
