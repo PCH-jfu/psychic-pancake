@@ -6,17 +6,14 @@ int c;
 int new_branch;
 
 void main(){
-	int d;
 	int f;
 	a = 1;
 	b = 200;
-	d = a + b + b;
+	f = a + b + b;
 
-	new_branch = a + d;
+	new_branch = a + f;
 	
-	printf("the value of d is %d\r\n", d);
+	printf("the value of f is %d\r\n", f);
 
 	printf("the new_branch value is %d\r\n", new_branch);
-
-	printf("we don't use f\r\n");
 }
